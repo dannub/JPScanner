@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:background="@drawable/bg3"
+    tools:context="com.example.user.jpscanner.activities.Loading">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <ProgressBar
+
+            android:layout_gravity="center"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:indeterminateDrawable="@drawable/circular"
+            android:max="100"
+            android:layout_marginBottom="12sp"
+            android:progress="20"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12sp"
+            android:textColor="@color/spalsh"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:text= "© 2018 Voordeel. All rights reserved | Powered by Voordeel" />
+    </LinearLayout>
+</RelativeLayout>

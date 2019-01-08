@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/dlayout"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.example.user.jpscanner.fragment.Dashboard">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:background="@drawable/bg2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:fontFamily="sans-serif"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layouts2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dddsddd"
+                android:layout_marginTop="2pt"
+                android:id="@+id/tgl2"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="8pt"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status : "
+                    android:layout_marginTop="2pt"
+                    android:id="@+id/statust2"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textSize="8pt"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cek..."
+                    android:layout_toRightOf="@id/statust2"
+                    android:layout_marginTop="2pt"
+                    android:id="@+id/status2"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textSize="8pt"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dddsddd"
+            android:id="@+id/time2"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textSize="8pt"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width = "match_parent"
+        android:id="@+id/lscand"
+        android:layout_gravity = "bottom"
+        android:background="@color/dasboard"
+        android:layout_weight="0.2"
+        android:orientation = "vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/scantd"
+            android:layout_height="wrap_content" android:text="SCAN"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <ImageView
+
+            android:src="@mipmap/fokus2"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:id="@+id/scan1"/>
+
+    </LinearLayout>
+</FrameLayout>

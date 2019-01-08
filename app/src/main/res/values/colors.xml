@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66c7ba</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#247168</color>
+    <color name="colorText">#247168</color>
+    <color name="colorTextHint">#7ff3e5</color>
+    <color name="spalsh">#48BFD8</color>
+    <color name="spalshfont"> #C4E5F2</color>
+    <color name="spalsh2">#2D52A0</color>
+    <color name="login"> #f8f6f9</color>
+    <color name="login2"> #67c3dc</color>
+    <color name="gelap"> #4ca79b</color>
+    <color name="dasboard"> #344159</color>
+    <color name="disconnect"> #ff1a1a</color>
+    <color name="connect"> #55ff00</color>
+
+</resources>
