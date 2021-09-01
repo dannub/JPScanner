@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JPScanner.iml" filepath="$PROJECT_DIR$/JPScanner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JPScanner.iml" filepath="$PROJECT_DIR$/.idea/modules/JPScanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JPScanner.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JPScanner.app.iml" />
     </modules>
   </component>
 </project>
